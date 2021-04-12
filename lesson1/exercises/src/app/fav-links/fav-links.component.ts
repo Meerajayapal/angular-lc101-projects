@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./fav-links.component.css']
 })
 export class FavLinksComponent implements OnInit {
-  favLinks:['https://www.launchcode.org/', 'https://www.w3schools.com/' , 'https://storyberries.com/category/fairy-tales/famous-fairy-tales/'];
-  
+  favLinks:[];
+  link1 = "https://www.launchcode.org/";
+  link2 = "https://www.w3schools.com/";
+  link3 =  "https://storyberries.com/category/fairy-tales/famous-fairy-tales/";
   constructor() { }
 
   ngOnInit() {
